@@ -1,0 +1,80 @@
+.movie-card {
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   margin: 3rem 0.5rem;
+   padding: 1.5rem;
+   background-color: #000000;
+   border-radius: 0.3rem;
+   border-left: 3px solid greenyellow;
+   border-bottom: 3px solid greenyellow;
+}
+
+h3 {
+   font-size: 2.8rem;
+   padding-bottom: 0.5rem;
+   border-bottom: 1px solid greenyellow;
+}
+
+.card-meta {
+   margin: 1rem auto;
+}
+
+.card-image {
+   margin-right: 3rem;
+}
+
+img {
+   width: 300px;
+   height: 420px;
+   border-radius: 0.3rem;
+}
+
+small {
+   color: greenyellow;
+}
+
+.card-description {
+   line-height: 1.8;
+   font-size: 2.1rem;
+}
+
+/* Media query */
+@media (max-width: 750px) {
+   .movie-card {
+      width: 100%;
+      display: inline-block;
+      margin: 3rem auto;
+      padding: 4rem 3rem;
+      background-color: #000000;
+      border-radius: 0.3rem;
+      border-left: 3px solid greenyellow;
+      border-bottom: 3px solid greenyellow;
+   }
+
+   .card-image {
+      width: 100%;
+      margin-bottom: 3rem;
+      margin-right: 0;
+   }
+
+   img {
+      width: 100%;
+      border-radius: 0.3rem;
+   }
+
+   .card-meta {
+      font-size: 1.8rem;
+   }
+
+   h3 {
+      font-size: 2.1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid greenyellow;
+   }
+
+   .card-description {
+      line-height: 1.5;
+      font-size: 1.5rem;
+   }
+}
